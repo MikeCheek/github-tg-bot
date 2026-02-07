@@ -54,8 +54,8 @@ fastify.post('/webhook', async (request, reply) => {
 // Start everything
 const start = async () => {
   await bot.launch()
-  await fastify.listen({ port: 3000 })
-  console.log('Bot is running and Webhook listener is live on port 3000')
+  await fastify.listen({ port: 3300 })
+  console.log('Bot is running and Webhook listener is live on port 3300')
 }
 
 start()
